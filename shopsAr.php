@@ -155,7 +155,7 @@ $result = mysqli_query( $conn, $sql );
 		</div>
 
 		<div class="copyright">
-			<p>Copyright @ 2022. All right Reserved </p>
+			<p>Copyright @ 2023. All right Reserved </p>
 		</div>
 	</footer>
 	</body>
