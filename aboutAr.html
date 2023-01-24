@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link href="favicon.ico" rel="icon" />
+  <title>About Us | AR !</title>
+
+  <!-- link for using icons - https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet" -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!--------------------------- makeing of navbar ----------------------------->
+  <section id="header">
+    <img src="image/logo.png" alt="" />
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="aboutAr.html">About</a></li>
+        <li><a href="shopsAr.php">Shop</a></li>
+        <li><a href="contactAr.html">Contact</a></li>
+        <li><a href="loginAr.html">Login/Sign-up</a></li>
+        <li>
+          <a href="cartAr.html"><span class="material-icons">shopping_bag</span></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ------makeing of page header--------------makeing of page header --------makeing of page header-------------- -->
+  <section id="page-header" class="about-header">
+    <p>Do you want to know more about us??</p>
+    <h2>Go all-in!!!</h2>
+  </section>
+
+  <!-- ----------------------------about us section try------------------------ -->
+  <section id="about-head" class="section-p1">
+    <img src="image/about/aa1.jpg" alt="" />
+
+    <div>
+      <h2>Who we Are?</h2>
+      <p align="justify">
+        AR! was founded in 2020 and was born in the fans' end and raised on
+        the field, delivering world-class quality items from box to box.<br /><br />
+        AR! is your one-stop store for soccer jerseys and hard-to-find
+        supporters' apparel, and we're the one-stop shop for fans of all teams
+        looking for the best assortment of jerseys and unique customizations
+        from around the world. <br />We're here for the fans in row Z, still
+        singing well after the 90th minute, and we're creative and artistic in
+        the final third yet not hesitant to get stuck in. We'll get your order
+        to you as soon as possible, with the clinical shipping and quality you
+        deserve. After all, you want all three points, no less. <br /><br />
+        We follow the beautiful game, we live the beautiful game, and we want
+        to bring it back to you from all over the world.
+      </p>
+
+      <br /><br />
+      <!----MARQUEE TAG IS USED FOR SLIDING EFFECT--------->
+      <marquee bgcolor="#F3EAF0" width="100%">WE ARE PLAYERS, PARENTS, COACHES, AND FANS ..........We motivate you
+        to play better, cheer louder, and have more fun by offering the best
+        assortment of soccer equipment.
+      </marquee>
+    </div>
+  </section>
+
+  <section id="product1" class="section-p1">
+    <h2>Clients' testimonials</h2>
+    <!-- <h3>Here we go</h3> -->
+    <p>Here are some of our work we do for our clients.</p>
+  </section>
+
+  <section>
+    <script type="text/javascript">
+      var i = 1;
+
+      function goNext() {
+        i = i + 1;
+        if (i == 6) i = 1;
+
+        document.getElementById("displayImage").src =
+          "image/about/a" + i + ".jpg";
+        document.getElementById("displayText").innerHTML = captions[i];
+      }
+
+      function goPrev() {
+        i = i - 1;
+        if (i == 0) i = 5;
+
+        document.getElementById("displayImage").src =
+          "image/about/a" + i + ".jpg";
+        document.getElementById("displayText").innerHTML = captions[i];
+      }
+    </script>
+  </section>
+
+  <body>
+    <table border="0" align="center" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <td width="82" height="10" align="right">
+            <img src="image/about/b.png" width="50" height="50" alt="" onClick="goPrev()" />
+          </td>
+          <td width="1320" align="center">
+            <img src="image/about/a1.jpg" width="75%" height="75%" alt="" id="displayImage" />
+          </td>
+          <td width="82" align="left">
+            <img src="image/about/f.png" width="50" height="50" alt="" onClick="goNext()" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+  <br /><br /><br /><br /><br />
+
+  <!-- ----------------------------footer section-------------------------->
+  <footer class="section-p1">
+    <div class="col">
+      <img class="logo" src="image/logo.png" alt="" />
+      <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icon">
+          <i class="fa fa-facebook-square"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-youtube-play"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <h4>About</h4>
+      <a href="#">About us </a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy </a>
+      <a href="#">Terms and Conditions</a>
+    </div>
+
+    <div class="col">
+      <h4>Quick Link</h4>
+      <a href="index.html">Home </a>
+      <a href="aboutAr.html">About us </a>
+      <a href="shopsAr.php">Shop </a>
+      <a href="contactAr.html">Contact</a>
+    </div>
+
+    <div class="col">
+      <h4>Contact Us</h4>
+      <p><strong>Email: </strong>raj.prajapati@nift.ac.in</p>
+      <p><strong>Address: </strong>189,Pura Pandey TSL Naini Allahabad UP</p>
+      <p><strong>Phone: </strong> +91-8953976778</p>
+      <p><strong>Hours: </strong>Mon-Sat, 10am - 9pm</p>
+    </div>
+
+    <div class="copyright">
+      <p>Copyright @ 2022. All right Reserved </p>
+    </div>
+  </footer>
+</body>
+
+</html>

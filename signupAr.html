@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+
+<head>
+	<link href="favicon.ico" rel="icon">
+	<meta charset="utf-8">
+	<title>Sign-Up | AR!</title>
+
+	<!-- link for using icons - https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet" -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+	<link href="signup.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+	<body>
+		<!--------------------------- makeing of navbar ----------------------------->
+		<section id="header"><img src="image/logo.png" alt="" />
+			<div>
+				<ul id="navbar">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutAr.html">About</a></li>
+					<li><a href="shopsAr.php">Shop</a></li>
+					<li><a href="contactAr.html">Contact</a></li>
+					<li><a class="active" href="loginAr.html">Click here to Login</a></li>
+					<li><a href="cartAr.html"><span class="material-icons">shopping_bag</span></a></li>
+				</ul>
+			</div>
+		</section>
+
+
+		<p>
+			<!-- ----------------------------sign up page----------------------->
+		<form action="signup.php" method="post" >
+
+
+			<table width="auto" height="auto" border="0" cellpadding="0" cellspacing="25" align="center">
+				<tbody class="container">
+					<tr>
+						<td width="1500"><label><b>Enter your name</b></label>
+							<input type="text" name="name" placeholder="Enter name" required>
+						</td>
+					</tr>
+					<tr>
+						<td width="1500"><label><b>Enter your email</b></label>
+							<input type="text" name="email" placeholder="Enter email-id" required>
+						</td>
+					</tr>
+					<tr>
+						<td width="1500"><label><b>Select Your gender</b></label><br><br>
+							<input type="radio" name="gender" id="female" value="Female" required checked> Female
+							<input type="radio" name="gender" id="male" value="Male" required> Male
+							<input type="radio" name="gender" id="other" value="other" required> Others
+						</td>
+					</tr>
+					<!-- <tr>
+						<td width="1500"><label><b>Select Your Date of Birth</b></label><br><br>
+							<input type="date" name="dob" id="dob" required>
+						</td> -->
+					</tr>
+					<tr>
+						<td width="1500"><label><b>Enter your Mobile Number</b></label><br><br>
+							<input type="text" name="mobile" placeholder="Enter mobile number" required>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="psw"><b>Enter a Password</b></label>
+							<input type="password" placeholder="Enter Password" name="psw" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button type="submit" name="submit" value="register">Submit</button>
+						</td>
+					</tr>
+					<!-- <tr>
+						<td>
+							<div class="container" style="background-color:#f1f1f1">
+								<button type="button" class="signupbtn">Click here to Sign-Up</button>
+								<span class="psw"><a href="#">Forgot password?</a></span>
+							</div>
+						</td>
+					</tr> -->
+				</tbody>
+			</table>
+		</form>
+		<br>
+		<!-- ----------------------------footer section-------------------------->
+
+		<footer class="section-p1">
+			<div class="col">
+
+				<p><img class="logo" src="image/logo.png" alt="">
+				</p>
+				<div class="follow">
+					<h4>Follow us</h4>
+					<div class="icon">
+						<i class="fa fa-facebook-square"></i>
+						<i class="fa fa-twitter"></i>
+						<i class="fa fa-instagram"></i>
+						<i class="fa fa-youtube-play"></i>
+						<i class="fa fa-linkedin"></i>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col">
+				<h4>About</h4>
+				<a href="aboutAr.html">About us </a>
+				<a href="#">Delivery Information</a>
+				<a href="#">Privacy Policy </a>
+				<a href="#">Terms and Conditions</a>
+			</div>
+
+
+			<div class="col">
+				<h4>Quick Link</h4>
+				<a href="index.html">Home </a>
+				<a href="aboutAr.html">About us </a>
+				<a href="shopsAr.php">Shop </a>
+				<a href="contactAr.html">Contact</a>
+			</div>
+
+
+
+			<div class="col">
+				<h4>Contact</h4>
+				<p><strong>Email: </strong>raj.prajapati@nift.ac.in</p>
+				<p><strong>Address: </strong>189,Pura Pandey TSL Naini Allahabad UP</p>
+				<p><strong>Phone: </strong> +91-8953976778</p>
+				<p><strong>Hours: </strong> Mon-Sat, 10am - 9pm </p>
+			</div>
+
+
+			<div class="copyright">
+				<p>Copyright @ 2022. All right Reserved</p>
+			</div>
+
+
+		</footer>
+	</body>
+
+</html>
